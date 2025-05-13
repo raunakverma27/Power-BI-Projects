@@ -66,7 +66,7 @@ Provides in-depth analysis of customer behavior and segmentation:
 
 ### 🔍 Page 5: Key Influencers & Predictive Analysis
 
-![Key Influencers](https://github.com/user-attachments/assets/211098647/443228329-9d699d82-93f2-449a-b6b8-6574caa97788)
+<img width="959" alt="Key Influencers" src="https://github.com/user-attachments/assets/0db35d73-5d10-4f20-8ccf-42cfee7745a5" />
 
 Leverages Power BI's AI capabilities to uncover hidden drivers:
 
