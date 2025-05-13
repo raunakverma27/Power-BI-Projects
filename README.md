@@ -1,1 +1,108 @@
-<pre lang="markdown"> ```markdown # SALES DATA ANALYSIS REPORT (Power BI) ## Sales Data Analysis Report Overview This report analyzes and visualizes company sales data over a four-year period. Its primary goal is to support upper management in making informed, strategic decisions based on key metrics and trends. The report is structured across five key pages, each serving a specific analytical purpose. --- ### Page 1 - Executive Dash: ![Executive Dash](https://github.com/user-attachments/assets/604320c9-8477-4491-81b6-2b97db6b3657) This page is built for executives who need quick, high-level insights without digging through details. It highlights core KPIs such as revenue, profit, order count, and return rate using clean visuals like summary cards and trend charts. A four-year revenue trend is presented with a slicer to filter by specific years or months. The dashboard compares current and previous month performance on revenue, orders, and returns, offering context for evaluating progress toward targets. It also breaks down orders by product category, highlights the top 10 products by revenue and return rate, and identifies the most ordered and most returned sub-category. A page-level filter in the top-left corner enables year-specific views, all within a minimal, intuitive layout designed for fast, informed decision-making. --- ### Page 2 - Map: ![Sales by Location](https://github.com/user-attachments/assets/15cac93e-a762-4eea-ae3d-ac26ec64e186) The “Sales by Location” page presents a regional breakdown of order volume through an interactive map, allowing users to toggle between regions using built-in buttons. It provides a clear visual representation of geographic sales distribution, helping leadership identify which areas are performing well and which need attention. This page is particularly useful for regional sales strategy, resource allocation, and identifying markets with potential for growth. --- ### Page 3 - Product Detail: ![Product Detail](https://github.com/user-attachments/assets/943902ee-2e24-418a-8943-c8f5e719fb7e) This page focuses on product-level insights and performance tracking. Users can select a specific product and view its total revenue, profit, order volume, and returns. A key feature is the “Price Adjustment” slider, which lets users simulate pricing changes and see their impact on both total and adjusted profit. The page also shows monthly target achievements for each product across orders, revenue, and profit, giving product teams actionable data for evaluating success, refining pricing strategies, and optimizing inventory planning. --- ### Page 4 - Customer Detail: ![Customer Detail](https://github.com/user-attachments/assets/b9fdbf57-3085-4d82-8186-fd15ab6433fc) The “Customer Demographics” page breaks down total orders by customer occupation and income level, offering insights into purchasing behavior. It shows metrics such as unique customer count and revenue per customer, with a two-year trend line chart tracking changes in customer base and per-customer revenue. It also highlights the top 100 customers by number of orders and revenue contribution. A slicer allows users to filter visuals by year, helping marketing and business development teams better understand and segment the customer base for targeted outreach. --- ### Page 5 - Key Influencers: ![Key Influencers](https://github.com/211098647/443228329-9d699d82-93f2-449a-b6b8-6574caa97788.png?raw=true) The final page leverages Power BI’s AI and regression tools to uncover drivers behind key performance metrics. It identifies variables that positively or negatively influence KPIs like revenue and profit. In addition, it includes customer segmentation analysis, offering insights into churn risk, retention rates, and likelihood of repeat purchases. This advanced analytics view is vital for shaping customer engagement strategies, personalizing marketing, and improving long-term planning with predictive foresight. ``` </pre>
+# 📊 Sales Data Analysis Report (Power BI)
+
+This repository contains a comprehensive *Sales Data Analysis Report* built with *Power BI*, covering four years of company sales data. The primary goal of this report is to help upper management make informed, data-driven decisions using interactive dashboards, regional insights, product and customer analysis, and predictive analytics.
+
+---
+
+## 🗂 Report Overview
+
+The report is divided into *five key pages*, each designed to serve a specific analytical purpose:
+
+---
+
+### 📌 Page 1: Executive Dashboard
+
+![Executive Dashboard](https://github.com/user-attachments/assets/604320c9-8477-4491-81b6-2b97db6b3657)
+
+Designed for executives, this page offers high-level KPIs and trends in a minimalist, intuitive layout:
+
+- Core metrics: *Revenue, **Profit, **Orders, **Return Rate*
+- *4-Year Revenue Trend* with slicers for filtering by year/month
+- Month-over-month performance comparison
+- *Top 10 Products* by revenue and return rate
+- Most ordered and most returned sub-categories
+- Year-specific views with easy filtering
+
+---
+
+### 🗺 Page 2: Sales by Location
+
+![Sales by Location](https://github.com/user-attachments/assets/15cac93e-a762-4eea-ae3d-ac26ec64e186)
+
+An interactive map-based view showing *order volume by region*, ideal for:
+
+- Identifying top-performing and underperforming regions
+- Informing *regional strategy* and *resource allocation*
+- Discovering *growth opportunities*
+
+---
+
+### 📦 Page 3: Product Detail
+
+![Product Detail](https://github.com/user-attachments/assets/943902ee-2e24-418a-8943-c8f5e719fb7e)
+
+Focused on individual product performance, this page offers:
+
+- KPIs: *Revenue, **Profit, **Orders, **Returns*
+- *Price Adjustment Slider* to simulate pricing impact on profit
+- Monthly target tracking for orders, revenue, and profit
+- Useful for *pricing strategy* and *inventory planning*
+
+---
+
+### 👥 Page 4: Customer Demographics
+
+![Customer Detail](https://github.com/user-attachments/assets/b9fdbf57-3085-4d82-8186-fd15ab6433fc)
+
+Provides in-depth analysis of customer behavior and segmentation:
+
+- Breakdown by *Occupation* and *Income Level*
+- *Unique Customers* and *Revenue per Customer*
+- *2-Year Trend* on customer base and revenue
+- *Top 100 Customers* by order count and revenue
+- Year slicers for targeted demographic analysis
+
+---
+
+### 🔍 Page 5: Key Influencers & Predictive Analysis
+
+![Key Influencers](https://github.com/user-attachments/assets/211098647/443228329-9d699d82-93f2-449a-b6b8-6574caa97788)
+
+Leverages Power BI's AI capabilities to uncover hidden drivers:
+
+- *Key Influencers* affecting Revenue, Profit, and Orders
+- *Customer Segmentation* for churn, retention, and repeat purchase likelihood
+- Ideal for *predictive modeling, **marketing personalization, and **strategic planning*
+
+---
+
+## 🚀 Key Features
+
+- Built entirely with *Power BI Desktop*
+- *Interactive visuals*, slicers, and filters
+- *AI-driven insights* and what-if scenarios
+- Optimized for *executive reporting, **sales strategy, and **customer intelligence*
+
+---
+
+## 📁 Repository Contents
+
+- 📂 report/ - Power BI (.pbix) file and report assets (if included)
+- 📄 README.md - Project overview and page-by-page breakdown
+
+---
+
+## 🧠 Future Enhancements
+
+- Real-time data integration
+- Mobile-optimized report view
+- Exportable PDF summaries per page
+- Drillthrough pages for deeper sub-category insights
+
+---
+
+## 📬 Contact
+
+For any questions or collaboration inquiries, please reach out via [GitHub Issues](https://github.com/your-repo/issues) or open a pull request.
+
+---
